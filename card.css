@@ -1,10 +1,41 @@
 *{
    margin: 0;
-   psdding: 0;
+   paddign: 0;
 }
 body{
-    background: #f0f0f0;
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
+   background: #f0f0f0;
+   display: flex;
+   heigth: 100px;
+   aling-items: center;
+   justify: center;
+}
+.card{
+   backround: white;
+   border-radius: 15px;
+   width: 300px;
+   text-align: center;
+   position: relatie;
+}
+.card-body img{
+   width: 100px;
+   margin-top: 20px;
+   border-radius: 50%;
+}
+.card-body {
+   padding: 15px;
+}
+.card-body h2{
+   margin-bottom: 5px;
+}
+.card p{
+   color: #77;
+   padding: 15px;
+}
+.card-footer{
+   background: #fff;
+   padding: 15x;
+   transition: all 0.4s ease;
+   opacity: 0;
+   transform: translatey(0);
+   visibility: visible;
+}
